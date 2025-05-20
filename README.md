@@ -59,6 +59,7 @@ Setting up and activating Visual Studio can be done through these steps:
     C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build
     ```
 
+
 4. Run the following command:
     ```bash
     ./vcvars64.bat
@@ -74,6 +75,16 @@ Setting up and activating Visual Studio can be done through these steps:
     ```bash
     ./vcvarsall.bat x64 -vcvars_ver=14.29
     ```
+
+If you are not using professional and have Visual Studio Community, you would have to run it in PowerShell in order to activate.
+    Example:
+    
+    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build
+
+  Within the same folder where vcvars64 is insde, above in the navigation, type in "Powershell" in order to open it, then run the command:
+  
+    ./vcvars64.bat
+
 <br><br>
 
 
